@@ -9,8 +9,8 @@ self.addEventListener('activate', function(event) {
 let CACHE_NAME = 'app_serviceworker_v_1',
 
     cacheUrls = [
-        '/',
-        '/index.html'
+        '../',
+        '../index.html'
     ];
 
 self.addEventListener('install', function(event) {
