@@ -9,8 +9,8 @@ self.addEventListener('activate', function(event) {
 let CACHE_NAME = 'temp_page_sw',
 
     cacheUrls = [
-        '../',
-        '../index.html'
+        '/offline-page/',
+        '/offline-page/index.html'
     ];
 
 self.addEventListener('install', function(event) {
