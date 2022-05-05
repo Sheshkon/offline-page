@@ -6,7 +6,7 @@ self.addEventListener('activate', function(event) {
 //     console.log('install', event);
 // });
 
-let CACHE_NAME = 'app_serviceworker_v_1',
+let CACHE_NAME = 'temp_page_sw',
 
     cacheUrls = [
         '../',
