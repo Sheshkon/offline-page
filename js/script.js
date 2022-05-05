@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-        .register('/offline-page/sw.js', { scope: '/offline-page/' })
+        .register('/offline-page/js/sw.js', { scope: '/offline-page/' })
         .then(function() { console.log("Service Worker Registered"); });
 }
 
