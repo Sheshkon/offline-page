@@ -10,8 +10,8 @@ let CACHE_NAME = 'temp_page_sw',
 
     cacheUrls = [
         '/offline-page/',
-        'index.html',
-        'js/script.js'
+        '/offline-page/index.html',
+        '/offline-page/js/script.js'
     ];
 
 self.addEventListener('install', function(event) {
